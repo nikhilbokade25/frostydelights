@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.hero_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.hero_text {
+    width: 40%;
+    height: 100%;
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #fecbd5;
+    
+}
+
+.hero_text_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_text h1 {
+    font-size: 130px;
+    margin-bottom: 20px;  
+    margin-left: 150px;
+}
+
+.hero_text p{
+    font-size: 35px;
+    margin-left: 160px;
+}
+
+.hero_button {
+    padding: 12px 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    margin-right: 120px;
+    margin-top: 40px;
+    height: 60px;
+    width: 30%;
+}
+
+.hero_button span{
+    position: relative;
+    top: -7px;
+}
+
+.button_icon {
+    width: 35px; 
+    height: auto;
+}
+
+.hero_button:hover {
+    background-color: #ff3b5a;
+}
+
+.hero_image {
+    width: 60%;
+    height: 100%;
+    order: 2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #fecbd5;
+}
+
+.hero_float_image {
+    width: 60%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fecbd5;
+}
+
+.hero_img {
+    width: 100%;
+    position: absolute;
+    transform: rotate(-10deg);
+    transition: transform 0.3s ease-in-out;
+    top: -25%;
+    right: 7%;
+}
+
+
+.floating {
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: rotate(-10deg) translateY(0);
+    }
+    50% {
+        transform: rotate(-10deg) translateY(-15px);
+    }
+}
+
+
+@media (max-width: 800px) {
+    .hero_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero_text, .hero_image {
+        width: 100%;
+        
+    }
+
+    .hero_image {
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero_text {
+        order: 2;
+    }
+
+    .hero_text h1 {
+        font-size: 60px; 
+        margin: 0;
+    }
+
+    .hero_text p{
+        margin: 0;
+    }
+
+    .hero_button {
+        font-size: 18px;
+        padding: 12px 25px;
+        margin: 0;
+    }
+
+    .hero_float_image {
+        width: 80%;
+        height: auto;
+    }
+
+    .hero_img {
+        width: 80%;
+        position: relative;
+        transform: rotate(-8deg);
+    }
+}
