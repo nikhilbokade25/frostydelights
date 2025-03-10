@@ -1,0 +1,11 @@
+.about_container{
+    width: 100%;
+    height: 70vh;
+    background-color: red;
+}
+
+@media(max-width:768px){
+    .about_container{
+        margin-top: 90px;
+    }
+}
