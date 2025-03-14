@@ -34,7 +34,7 @@ export default function About() {
                 opacity: 1,
                 duration: 1, 
                 ease: "power4.out",
-                delay: 0.5, 
+                delay: 0.1, 
                 scrollTrigger: {
                     trigger: ".about_container",
                     start: "top 20%", 

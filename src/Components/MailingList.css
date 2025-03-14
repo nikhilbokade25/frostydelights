@@ -1,0 +1,80 @@
+.mailing_container {
+    width: 100%;
+    height: 100vh;
+    background-color: peru;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mailing_image {
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    background-color: wheat;
+}
+
+.mailing_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mailing_text {
+    position: absolute;
+    top: 50%;
+    left: 5%; 
+    transform: translateY(-50%);
+    color: rgb(255, 245, 140);
+    font-size: 2rem;
+    max-width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mailing_text p{
+    margin-top: 20px;
+}
+
+.mailing_btn{
+    width: 40%;
+    padding: 13px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-top: 20px;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mailing_btn:hover{
+    background-color: #43c6e4;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-3px); 
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width:768px){
+    .mailing_text{
+        max-width: 100%;
+        top: 50%;
+        color: rgb(255, 245, 140);
+    }
+
+    .mailing_text p{
+        margin-top: 90px;
+    }
+
+    .mailing_image img{
+        object-fit: cover;
+    }
+
+    .mailing_btn{
+        width: 60%;
+    }
+}

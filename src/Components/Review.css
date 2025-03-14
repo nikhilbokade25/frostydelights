@@ -1,7 +1,7 @@
 .review_container {
     width: 100%;
     height: 75vh;
-    background-color: #211f20;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     width: 100%; 
     max-width: 440px; 
     height: 60vh;
-    background-color: #e5deba;
+    background-color: #f3efe5;
     padding: 15px;
     box-sizing: border-box;
     text-align: center;
@@ -31,8 +31,10 @@
     text-align: left;
     font-size: 40px;
     margin-left: 35px;
-    width: 80%;
+    width: 90%;
     margin-top: 10px;
+    color: #ffc008;
+    font-weight: bold;
 }
 
 .review_content .review_name{
