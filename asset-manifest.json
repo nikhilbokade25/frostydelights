@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/frostydelights/static/css/main.7af44ce6.css",
+    "main.js": "/frostydelights/static/js/main.6a6e1857.js",
+    "static/js/453.14700c3a.chunk.js": "/frostydelights/static/js/453.14700c3a.chunk.js",
+    "static/media/product4.jpg": "/frostydelights/static/media/product4.e20d46e27f3e40364abe.jpg",
+    "static/media/mailingList.jpg": "/frostydelights/static/media/mailingList.dac3a9fd973621fb8c61.jpg",
+    "static/media/heroImg2.png": "/frostydelights/static/media/heroImg2.6245f5728675317d0a01.png",
+    "static/media/product1.jpg": "/frostydelights/static/media/product1.b5ddaeb516639e29712b.jpg",
+    "static/media/product2.jpg": "/frostydelights/static/media/product2.097385cdac633a16ec2e.jpg",
+    "static/media/product3.jpg": "/frostydelights/static/media/product3.a47a68587bbc41dba982.jpg",
+    "static/media/aboutImg1.jpg": "/frostydelights/static/media/aboutImg1.839880c1032d8159a5e8.jpg",
+    "static/media/aboutImg.png": "/frostydelights/static/media/aboutImg.bdfffeb8c76bb7870bbf.png",
+    "static/media/icecream_icon.png": "/frostydelights/static/media/icecream_icon.31b527e21bd900562ea3.png",
+    "static/media/slick.svg": "/frostydelights/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/frostydelights/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/frostydelights/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/frostydelights/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/frostydelights/index.html",
+    "main.7af44ce6.css.map": "/frostydelights/static/css/main.7af44ce6.css.map",
+    "main.6a6e1857.js.map": "/frostydelights/static/js/main.6a6e1857.js.map",
+    "453.14700c3a.chunk.js.map": "/frostydelights/static/js/453.14700c3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7af44ce6.css",
+    "static/js/main.6a6e1857.js"
+  ]
+}
